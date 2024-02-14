@@ -1,4 +1,4 @@
-package class_obj_into;
+package Class_Obj_into;
 
 public class student_manin_in1 {
     public static class student {
@@ -30,7 +30,7 @@ public class student_manin_in1 {
 
     }
     public static void main(String[] args) {
-        class_obj_into.student s1=new class_obj_into.student();
+        Class_Obj_into.student s1=new Class_Obj_into.student();
         s1.name="mohan";
         s1.id=1;
         s1.age=25;
@@ -40,7 +40,7 @@ public class student_manin_in1 {
         s1.course_pause();
         s1.change_batch();
         System.out.println();
-        class_obj_into.student s2=new class_obj_into.student();
+        Class_Obj_into.student s2=new Class_Obj_into.student();
         s2.name="suhas";
         s2.id=2;
         s2.age=25;
