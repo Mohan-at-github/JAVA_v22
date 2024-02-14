@@ -1,4 +1,4 @@
-package class_obj_into;
+package Class_Obj_into;
 
 public class student {
     int age;

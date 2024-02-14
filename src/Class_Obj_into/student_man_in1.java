@@ -1,6 +1,6 @@
 package Class_Obj_into;
 
-public class student_manin_in1 {
+public class student_man_in1 {
     public static class student {
         int age;
         int id;
