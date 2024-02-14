@@ -18,3 +18,10 @@ git add .
 git commit -m "Add existing project files to Git"
 git remote add origin https://github.com/Mohan-at-github/LLD_MOHAN.git
 git push -u -f origin master
+
+
+to push 2nd time
+git status
+git add .
+get cmmmit -m "repo name"
+get push
