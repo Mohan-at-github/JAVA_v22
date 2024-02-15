@@ -12,7 +12,7 @@ public class Main extends car {
         //c1.car_types(); //private method not accessible outside the class
        // c1.car_ids(); //default method is accessible only within the package
 
-         //ask in class c2.car_colour(); //protected method is accessible because main class inherited the car class
+         // c2.car_colour(); //protected method is accessible because main class inherited the car class
 
         c2.car_details_display(); //public method
     }
