@@ -8,6 +8,7 @@ public class student {
     int psp;
     public void print_Student_details()
     {
+        System.out.println(this);
         System.out.println(this.name);
         System.out.println(this.id);
         System.out.println(this.age);
