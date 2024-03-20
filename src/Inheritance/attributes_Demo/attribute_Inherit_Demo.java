@@ -23,6 +23,6 @@ public class attribute_Inherit_Demo {
         System.out.println(baby2); //Inheritance.example$child@3feba861 baby2 is child of father but yet to inherit father's property
         System.out.println(baby2.surname); //raj baby2 is inheriting father surname
         father f1=new father();
-        //System.out.println(f1.psp); //psp attribute belongs to child class so parent class cannot access
+        //System.out.println(f1.psp); //psp attribute belongs to child class, so parent class cannot access
     }
 }

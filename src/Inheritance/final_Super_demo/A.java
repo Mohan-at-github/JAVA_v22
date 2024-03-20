@@ -7,7 +7,7 @@ public class A {
     }
    final public void display()
     {
-        System.out.println("a");
+        System.out.println("I am final method you cannot override you can just use me");
     }
 
 }
