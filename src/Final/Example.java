@@ -1,4 +1,4 @@
-package Final_Demo;
+package Final;
 
 public class Example {
     public static final double PI = 3.14; //final variable and local variable.

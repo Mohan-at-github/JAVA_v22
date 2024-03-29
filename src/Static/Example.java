@@ -1,4 +1,4 @@
-package Static_Demo;
+package Static;
 
 import java.util.Date;
 

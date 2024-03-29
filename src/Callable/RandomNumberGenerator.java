@@ -1,4 +1,4 @@
-package CallableDemo;
+package Callable;
 
 import java.util.Random;
 import java.util.concurrent.Callable;
