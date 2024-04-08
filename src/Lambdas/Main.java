@@ -12,6 +12,7 @@ public class Main {
         C cLambda=() -> System.out.println("Hii I am a lambda");
         a.show();
         cLambda.print();
+
     }
 }
 
