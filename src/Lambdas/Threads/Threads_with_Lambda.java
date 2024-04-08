@@ -1,4 +1,4 @@
-package Lambdas;
+package Lambdas.Threads;
 
 public class Threads_with_Lambda {
     public static void main(String[] args) {
