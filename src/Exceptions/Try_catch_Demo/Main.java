@@ -10,12 +10,14 @@ public class Main {
         }
         catch (NullPointerException e)
         {
-            dog=new Dog();
-            System.out.println(dog.getName());
+//            dog=new Dog();
+//            System.out.println(dog.getName());
+            System.out.println(e.getMessage());
         }
         finally {
             System.out.println("Hii i am here for closing up if any" +
-                    " file is opened and also unlocking threads during try catch");
+                    " file is opened and also unlocking threads which are locked during try catch");
         }
+
     }
 }
