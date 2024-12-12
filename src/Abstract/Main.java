@@ -16,8 +16,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        BMW obj=new BMW();
+        BMW obj = new BMW();
         obj.Drive();
         obj.Music();
+
     }
 }
