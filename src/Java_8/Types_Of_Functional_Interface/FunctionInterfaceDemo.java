@@ -1,6 +1,5 @@
-package Java_8.TypesOfFunctionalInterface;
+package Java_8.Types_Of_Functional_Interface;
 
-import java.util.Objects;
 import java.util.function.*;
 
 public class FunctionInterfaceDemo  {
