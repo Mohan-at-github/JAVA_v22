@@ -23,6 +23,8 @@ public class Client {
 
         //with JAVA 8
         Collections.sort(list,(a,b)->b-a);
+        //or
+        list.sort((a, b) -> b - a);
         System.out.println(list);
 
 
