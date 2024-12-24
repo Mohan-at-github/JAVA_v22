@@ -1,4 +1,4 @@
-package Java_8.Types_Of_Functional_Interface;
+package Java_8.All_in_1_Functional_Interface;
 
 import java.util.function.*;
 
