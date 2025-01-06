@@ -16,7 +16,7 @@ public class IntermediateOps {
         List<String> collect = list.stream().map(String::toUpperCase).collect(Collectors.toList());
         System.out.println(collect);
 
-        //3. sorted
+        //3.sorted
         //asc
         List<String> sorted = list.stream().sorted().collect(Collectors.toList());
         System.out.println(sorted);
