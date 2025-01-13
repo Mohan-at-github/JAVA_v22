@@ -1,9 +1,11 @@
 package Streams.Basics;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class TerminalOps {
     public static void main(String[] args) {
@@ -37,5 +39,20 @@ public class TerminalOps {
         //6. findFirst, findAny
         System.out.println(list.stream().findAny().get());
         System.out.println(list.stream().findFirst().get());
+
+        //7. toArray()
+        Object[] array = Stream.of(1, 2, 3).toArray();
+
+        //8. min/max
+        System.out.println("max "+Stream.of(4, 56, 3, 45).max(Comparator.naturalOrder()));
+        System.out.println(STR."min \{Stream.of(4, 56, 3, 45).min(Comparator.naturalOrder())}");
+        System.out.println("max "+Stream.of(4, 56, 3, 45).max((a1,b1)->b1-a1));
+
+        //9. forEachOrder
+        List<Integer> nums=Arrays.asList(2,6,4,3,7,9,5);
+        System.out.println("print using for each");
+        nums.parallelStream().forEach(System.out::print);
+        System.out.println("print using for each order");
+        nums.parallelStream().forEachOrdered(System.out::print);
     }
 }

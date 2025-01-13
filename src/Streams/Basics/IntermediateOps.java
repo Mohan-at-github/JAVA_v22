@@ -1,5 +1,7 @@
 package Streams.Basics;
 
+import com.sun.source.doctree.EscapeTree;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -35,5 +37,19 @@ public class IntermediateOps {
         //6.skip
         List<Integer> collect3 = Stream.iterate(1, x -> x + 1).limit(100).skip(10).collect(Collectors.toList());
         System.out.println(collect3);
+
+        //7.Peak
+        //Perform action on each element as it is consumed
+        Stream.iterate(1, x->x+1).skip(10).limit(100).peek(System.out::println).count();
+
+        //8.flatMap()
+        List<List<String>> listofLists=Arrays.asList(
+                Arrays.asList("Apple","Banana"),
+                Arrays.asList("Kiwi","PineApple"),
+                Arrays.asList("Orange","pomegranate")
+        );
+        System.out.println(listofLists.get(1).get(1));
+
+        System.out.println(listofLists.stream().flatMap(x->x.stream()).map(String::toUpperCase).collect(Collectors.toList()));
     }
 }
