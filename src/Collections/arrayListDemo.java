@@ -2,7 +2,7 @@ package Collections;
 
 import java.util.*;
 
-public class arrayList {
+public class arrayListDemo {
     public static void main(String[] args) {
         //adding elements to ArrayList
        List<Integer> list=new ArrayList<>();
