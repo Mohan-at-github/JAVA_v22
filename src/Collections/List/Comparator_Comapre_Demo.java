@@ -1,6 +1,4 @@
-package Collections;
-
-import Strings.A;
+package Collections.List;
 
 import java.util.ArrayList;
 import java.util.Comparator;
